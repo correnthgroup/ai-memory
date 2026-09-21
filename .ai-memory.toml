@@ -1,0 +1,11 @@
+workspace = "correnth"
+project = "ai-memory"
+project_strategy = "repo-root"
+drop_subagent_captures = "true"
+
+[briefing]
+inject_on_session_start = "true"
+max_chars = 2400
+
+[capture]
+ignore_paths = ["**"]
